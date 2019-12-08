@@ -10,3 +10,17 @@ C:\Users\nti98\source\repos\projectX\projectX\obj\Debug\projectX.pdb
 C:\Users\nti98\source\repos\projectX\projectX\obj\Debug\projectX.Main.resources
 C:\Users\nti98\source\repos\projectX\projectX\obj\Debug\Interop.ADOMD.dll
 C:\Users\nti98\source\repos\projectX\projectX\obj\Debug\projectX.csproj.ResolveComReference.cache
+C:\project talking keyboard\projectX\projectX\bin\Debug\projectX.exe.config
+C:\project talking keyboard\projectX\projectX\bin\Debug\projectX.exe
+C:\project talking keyboard\projectX\projectX\bin\Debug\projectX.pdb
+C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.csprojAssemblyReference.cache
+C:\project talking keyboard\projectX\projectX\obj\Debug\Interop.ADOMD.dll
+C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.csproj.ResolveComReference.cache
+C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.Main.resources
+C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.Properties.Resources.resources
+C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.csproj.GenerateResource.cache
+C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.exe
+C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.pdb
+C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.Form2.resources
+C:\project talking keyboard\projectX\projectX\bin\Debug\Database1.mdf
+C:\project talking keyboard\projectX\projectX\bin\Debug\Database1_log.ldf
