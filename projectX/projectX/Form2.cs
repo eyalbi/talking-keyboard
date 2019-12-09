@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 namespace projectX
 {
-    public partial class Form2 : Form
+   public partial class Form2 : Form
     {
         public Form2()
         {
