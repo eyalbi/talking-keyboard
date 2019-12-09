@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Speech.Synthesis;
 using System.Speech.AudioFormat;
-///using Microsoft.speech.synthesis;
-/// This is the code for your desktop app.
-///Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
+////using Microsoft.speech.synthesis;
+//// This is the code for your desktop app.
+////Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
 
 namespace projectX
 {
