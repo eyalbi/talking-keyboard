@@ -143,6 +143,7 @@ namespace projectX
             // 
             // Main
             // 
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(610, 295);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
