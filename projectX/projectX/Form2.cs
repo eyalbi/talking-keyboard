@@ -35,7 +35,7 @@ namespace projectX
             sda.Fill(dt);
             if (dt.Rows.Count == 1)
             {
-                this.Hide();
+                //this.Hide();
                 Main main = new Main();
                 main.Show();
 
@@ -47,6 +47,24 @@ namespace projectX
         }
 
         private void Form2_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+            label3.Text = DateTime.Now.ToLongTimeString();
+            label4.Text = DateTime.Now.ToLongDateString();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label3.Text = DateTime.Now.ToLongTimeString();
+            timer1.Start();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
