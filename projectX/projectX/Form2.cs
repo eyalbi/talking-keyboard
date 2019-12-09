@@ -10,8 +10,8 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 namespace projectX
 {
-    public partial class Form2 : Form
-    {
+     public partial class Form2 : Form
+     {
         public Form2()
         {
             InitializeComponent();
@@ -28,7 +28,7 @@ namespace projectX
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
+         {
             SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = ""C:\project talking keyboard\projectX\projectX\Database1.mdf""; Integrated Security = True");
             SqlDataAdapter sda = new SqlDataAdapter("select count(*) from login where username ='" + textBox1.Text + "'and password= '" + textBox2.Text + "'", con);
             DataTable dt = new DataTable();
