@@ -28,7 +28,7 @@ namespace projectX
             
             SpeechSynthesizer sd = new SpeechSynthesizer();
             String ogu = textBox2.Text;
-            sd.Rate = 0;
+            sd.Rate = -1;
             if (radioButton1.Checked)
             {
                 sd.SelectVoiceByHints(VoiceGender.Male);
@@ -96,6 +96,43 @@ namespace projectX
         {
             label3.Text = DateTime.Now.ToLongTimeString();
             timer1.Start();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox2.Clear();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(comboBox1.Text=="Sandy brown")
+            {
+                BackColor = Color.SandyBrown;
+            }
+            if (comboBox1.Text == "Salmon orange")
+            {
+                BackColor = Color.LightSalmon;
+            }
+            if (comboBox1.Text == "Navajo white")
+            {
+                BackColor = Color.NavajoWhite;
+            }
+            if (comboBox1.Text == "Burly wood")
+            {
+                BackColor = Color.BurlyWood;
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
+
         }
     }
 }
