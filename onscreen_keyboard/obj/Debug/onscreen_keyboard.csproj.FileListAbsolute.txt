@@ -1,0 +1,9 @@
+C:\Users\asafb\source\repos\onscreen_keyboard\onscreen_keyboard\bin\Debug\onscreen_keyboard.exe.config
+C:\Users\asafb\source\repos\onscreen_keyboard\onscreen_keyboard\bin\Debug\onscreen_keyboard.exe
+C:\Users\asafb\source\repos\onscreen_keyboard\onscreen_keyboard\bin\Debug\onscreen_keyboard.pdb
+C:\Users\asafb\source\repos\onscreen_keyboard\onscreen_keyboard\obj\Debug\onscreen_keyboard.csprojAssemblyReference.cache
+C:\Users\asafb\source\repos\onscreen_keyboard\onscreen_keyboard\obj\Debug\onscreen_keyboard.Form1.resources
+C:\Users\asafb\source\repos\onscreen_keyboard\onscreen_keyboard\obj\Debug\onscreen_keyboard.Properties.Resources.resources
+C:\Users\asafb\source\repos\onscreen_keyboard\onscreen_keyboard\obj\Debug\onscreen_keyboard.csproj.GenerateResource.cache
+C:\Users\asafb\source\repos\onscreen_keyboard\onscreen_keyboard\obj\Debug\onscreen_keyboard.exe
+C:\Users\asafb\source\repos\onscreen_keyboard\onscreen_keyboard\obj\Debug\onscreen_keyboard.pdb
