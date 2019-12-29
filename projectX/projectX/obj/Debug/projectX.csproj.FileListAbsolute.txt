@@ -70,3 +70,4 @@ C:\Users\nti98\Desktop\project talking keyboard\projectX\projectX\obj\Debug\proj
 C:\Users\nti98\Desktop\project talking keyboard\projectX\projectX\obj\Debug\projectX.exe
 C:\Users\nti98\Desktop\project talking keyboard\projectX\projectX\obj\Debug\projectX.pdb
 C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.csproj.CoreCompileInputs.cache
+C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.exit.resources
