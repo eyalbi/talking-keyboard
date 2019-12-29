@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 namespace projectX
 {
-   public partial class Form2 : Form
+    public partial class Form2 : Form
     {
         public Form2()
         {
@@ -29,16 +29,19 @@ namespace projectX
 
         private void button2_Click(object sender, EventArgs e)
         {
+
             SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = ""C:\project talking keyboard\projectX\projectX\Database1.mdf""; Integrated Security = True");
             SqlDataAdapter sda = new SqlDataAdapter("select count(*) from login where username ='" + textBox1.Text + "'and password= '" + textBox2.Text + "'", con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
             if (dt.Rows.Count == 1)
             {
-                //this.Hide();
-                Main main = new Main();
+                Main main = new Main(textBox2.Text);
+                main.Owner = this;
                 main.Show();
-
+                this.Hide();
+                textBox1.Clear();
+                textBox2.Clear();
             }
             else
             {
@@ -67,6 +70,49 @@ namespace projectX
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string conn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\project talking keyboard\projectX\projectX\Database1.mdf"";Integrated Security=True";
+            using(SqlConnection sqlcon = new SqlConnection(conn))
+            {
+
+                string query = "insert into login (username, password, user_type) values ('" + textBox2.Text + "','" + textBox1.Text + "','" + textBox3.Text + "') ;";
+                SqlCommand cmd = new SqlCommand(query, sqlcon);
+                SqlDataReader reader;
+                try
+                {
+                    sqlcon.Open();
+                    reader = cmd.ExecuteReader();
+                    MessageBox.Show("saved succesfully");
+                    while (reader.Read())
+                    {
+
+                    }
+
+                }
+                catch (Exception ex){
+                    MessageBox.Show("user name already exist");
+                
+                }
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            keyboard onscreen_keyboard = new keyboard();
+            onscreen_keyboard.Show();
         }
     }
 
