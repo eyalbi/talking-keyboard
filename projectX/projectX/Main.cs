@@ -29,29 +29,32 @@ namespace projectX
             SpeechSynthesizer sd = new SpeechSynthesizer();
             String ogu = textBox2.Text;
             sd.Rate = -1;
-            if (radioButton1.Checked)
+            sd.SelectVoiceByHints(VoiceGender.Male);
+            sd.Volume = trackBar1.Value;
+            if(ogu.StartsWith("'") && ogu.EndsWith("'"))
             {
-                sd.SelectVoiceByHints(VoiceGender.Male);
-                sd.Volume = trackBar1.Value;
+                sd.Speak("quote:");
+            }
+                sd.Speak(ogu);
+            if(ogu.Length < 1)
+            {
+                ogu = comboBox2.Text;
                 sd.Speak(ogu);
             }
-            if (radioButton2.Checked)
-            {
-                sd.SelectVoiceByHints(VoiceGender.Female,VoiceAge.Teen);
-                sd.Volume = trackBar1.Value;
-                sd.Speak(ogu);
-            }
+           
 
         }
 
         
         void textBox2_TextChanged(object sender1, EventArgs e1)
         {
-                      
+            
         }
 
         private void Main_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'database1DataSet.Sentences' table. You can move, or remove it, as needed.
+            this.sentencesTableAdapter.Fill(this.database1DataSet.Sentences);
             timer1.Start();
             label3.Text = DateTime.Now.ToLongTimeString();
             label4.Text = DateTime.Now.ToLongDateString();
@@ -132,6 +135,16 @@ namespace projectX
         {
             this.Close();
             
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -68,6 +68,33 @@ namespace projectX
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string conn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\project talking keyboard\projectX\projectX\Database1.mdf"";Integrated Security=True";
+            using(SqlConnection sqlcon = new SqlConnection(conn))
+            {
+
+                string query = "insert into login (username, password, user_type) values ('" + textBox2.Text + "','" + textBox1.Text + "','" + textBox3.Text + "') ;";
+                SqlCommand cmd = new SqlCommand(query, sqlcon);
+                SqlDataReader reader;
+                try
+                {
+                    sqlcon.Open();
+                    reader = cmd.ExecuteReader();
+                    MessageBox.Show("saved succesfully");
+                    while (reader.Read())
+                    {
+
+                    }
+
+                }
+                catch (Exception ex){
+                    MessageBox.Show(ex.Message);
+                
+                }
+            }
+        }
     }
 
 }
