@@ -46,6 +46,30 @@ namespace projectX
             {
                 ogu = comboBox2.Text;
                 sd.Speak(ogu);
+                string conn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\project talking keyboard\projectX\projectX\Database1.mdf"";Integrated Security=True";
+                using (SqlConnection sqlcon = new SqlConnection(conn))
+                {
+
+                    string query = "UPDATE Sentences SET counter = counter + 1 Where sentences = '" + ogu + "' ;";
+                    SqlCommand cmd = new SqlCommand(query, sqlcon);
+                    SqlDataReader reader;
+                    try
+                    {
+                        sqlcon.Open();
+                        reader = cmd.ExecuteReader();
+                        MessageBox.Show("sentences stats updated");
+                        while (reader.Read())
+                        {
+
+                        }
+
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("problem update sentences counter");
+
+                    }
+                }
             }
 
 
