@@ -69,5 +69,37 @@ C:\Users\nti98\Desktop\project talking keyboard\projectX\projectX\obj\Debug\proj
 C:\Users\nti98\Desktop\project talking keyboard\projectX\projectX\obj\Debug\projectX.csproj.CoreCompileInputs.cache
 C:\Users\nti98\Desktop\project talking keyboard\projectX\projectX\obj\Debug\projectX.exe
 C:\Users\nti98\Desktop\project talking keyboard\projectX\projectX\obj\Debug\projectX.pdb
-C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.csproj.CoreCompileInputs.cache
 C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.exit.resources
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\bin\Debug\Database1.mdf
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\bin\Debug\Database1_log.ldf
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\bin\Debug\projectX.exe.config
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\bin\Debug\projectX.exe
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\bin\Debug\projectX.pdb
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\obj\Debug\projectX.csprojAssemblyReference.cache
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\obj\Debug\Interop.ADOMD.dll
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\obj\Debug\projectX.csproj.ResolveComReference.cache
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\obj\Debug\projectX.exit.resources
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\obj\Debug\projectX.Form2.resources
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\obj\Debug\projectX.Main.resources
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\obj\Debug\projectX.Properties.Resources.resources
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\obj\Debug\projectX.csproj.GenerateResource.cache
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\obj\Debug\projectX.exe
+C:\project talking keyboard\talking-keyboard-eyal\projectX\projectX\obj\Debug\projectX.pdb
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\bin\Debug\Database1.mdf
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\bin\Debug\Database1_log.ldf
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\bin\Debug\projectX.exe.config
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\bin\Debug\projectX.exe
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\bin\Debug\projectX.pdb
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.csprojAssemblyReference.cache
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\Interop.ADOMD.dll
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.csproj.ResolveComReference.cache
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.exit.resources
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.Form2.resources
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.keyboard.resources
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.Main.resources
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.Properties.Resources.resources
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.csproj.GenerateResource.cache
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.csproj.CoreCompileInputs.cache
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.exe
+C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.pdb
+C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.csproj.CoreCompileInputs.cache

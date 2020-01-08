@@ -31,7 +31,7 @@ namespace projectX
         {
 
             SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = ""C:\project talking keyboard\projectX\projectX\Database1.mdf""; Integrated Security = True");
-            SqlDataAdapter sda = new SqlDataAdapter("select count(*) from login where username ='" + textBox1.Text + "'and password= '" + textBox2.Text + "'", con);
+            SqlDataAdapter sda = new SqlDataAdapter("select * from login where username ='" + textBox2.Text + "'and password= '" + textBox1.Text + "'", con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
             if (dt.Rows.Count == 1)
@@ -78,7 +78,7 @@ namespace projectX
             using(SqlConnection sqlcon = new SqlConnection(conn))
             {
 
-                string query = "insert into login (username, password, user_type) values ('" + textBox2.Text + "','" + textBox1.Text + "','" + textBox3.Text + "') ;";
+                string query = "insert into login (username, password, user_type) values ('" + textBox2.Text + "','" + textBox1.Text + "','" + comboBox1.SelectedText + "') ;";
                 SqlCommand cmd = new SqlCommand(query, sqlcon);
                 SqlDataReader reader;
                 try
@@ -101,10 +101,30 @@ namespace projectX
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"C:\Windows\WinSxS\amd64_microsoft-windows-osk_31bf3856ad364e35_10.0.18362.449_none_0098d787eb84df09\osk.exe");
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }

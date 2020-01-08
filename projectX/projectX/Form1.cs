@@ -33,8 +33,6 @@ namespace projectX
             this.Owner.Owner.Show();
             this.Owner.Close();
             this.Close();
-            //Form2 form2 = new Form2();
-            //form2.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
