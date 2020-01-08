@@ -43,6 +43,8 @@
             this.button4 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // button1
@@ -174,6 +176,20 @@
             this.label6.Size = new System.Drawing.Size(144, 20);
             this.label6.TabIndex = 15;
             this.label6.Text = "(for sign-up only)";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label7.ForeColor = System.Drawing.Color.Purple;
+            this.label7.Location = new System.Drawing.Point(538, 327);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(118, 25);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "contact us:";
+            this.toolTip1.SetToolTip(this.label7, "WhatsApp: +972 50681682\r\nMail: support@talkingkeyboard.com\r\nFax: +972 8369137\r\nP." +
+        "O.B: hasholtim 23 beer sheva\r\n\r\n");
             // 
             // Form2
             // 
@@ -181,6 +197,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(684, 361);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button4);
@@ -221,5 +238,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

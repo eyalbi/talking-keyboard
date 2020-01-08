@@ -106,13 +106,12 @@ namespace projectX
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            keyboard onscreen_keyboard = new keyboard();
-            onscreen_keyboard.Show();
+            System.Diagnostics.Process.Start(@"C:\Windows\WinSxS\amd64_microsoft-windows-osk_31bf3856ad364e35_10.0.18362.449_none_0098d787eb84df09\osk.exe");
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -121,6 +120,11 @@ namespace projectX
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }

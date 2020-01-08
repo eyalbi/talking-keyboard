@@ -57,7 +57,6 @@ namespace projectX
                     {
                         sqlcon.Open();
                         reader = cmd.ExecuteReader();
-                        MessageBox.Show("sentences stats updated");
                         while (reader.Read())
                         {
 
@@ -197,8 +196,7 @@ namespace projectX
 
         private void button5_Click(object sender, EventArgs e)
         {
-            keyboard onscreen_keyboard = new keyboard();
-            onscreen_keyboard.Show();
+            System.Diagnostics.Process.Start(@"C:\Windows\WinSxS\amd64_microsoft-windows-osk_31bf3856ad364e35_10.0.18362.449_none_0098d787eb84df09\osk.exe");
         }
         int sec = 0, minutes = 00, hours = 00;
         private void timer2_Tick(object sender, EventArgs e)
