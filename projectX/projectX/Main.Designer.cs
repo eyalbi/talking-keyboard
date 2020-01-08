@@ -45,6 +45,11 @@ namespace projectX
             this.database1DataSet = new projectX.Database1DataSet();
             this.sentencesTableAdapter = new projectX.Database1DataSetTableAdapters.SentencesTableAdapter();
             this.label5 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.label6 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sentencesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).BeginInit();
@@ -197,10 +202,60 @@ namespace projectX
             this.label5.Text = "clear text box.\r\nchoose a phrase and click \'read it\'";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(12, 304);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(114, 45);
+            this.button5.TabIndex = 14;
+            this.button5.Text = "onscreen keyboard";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // timer2
+            // 
+            this.timer2.Enabled = true;
+            this.timer2.Interval = 1000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(72, 265);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(54, 20);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "timer:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(277, 316);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(187, 20);
+            this.linkLabel1.TabIndex = 17;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "editing tools for admin";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(3, 265);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(96, 20);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "using time:";
+            // 
             // Main
             // 
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(610, 344);
+            this.ClientSize = new System.Drawing.Size(616, 361);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.button4);
@@ -249,6 +304,11 @@ namespace projectX
         private System.Windows.Forms.BindingSource sentencesBindingSource;
         private Database1DataSetTableAdapters.SentencesTableAdapter sentencesTableAdapter;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label7;
     }
 }
 
