@@ -81,7 +81,7 @@ namespace projectX
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(353, 130);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(221, 20);
+            this.label1.Size = new System.Drawing.Size(359, 31);
             this.label1.TabIndex = 2;
             this.label1.Text = "for play again click \'read it\'";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -91,7 +91,7 @@ namespace projectX
             this.trackBar1.Location = new System.Drawing.Point(418, 155);
             this.trackBar1.Maximum = 100;
             this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(194, 69);
+            this.trackBar1.Size = new System.Drawing.Size(194, 114);
             this.trackBar1.TabIndex = 5;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
@@ -100,7 +100,7 @@ namespace projectX
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(363, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 20);
+            this.label2.Size = new System.Drawing.Size(116, 31);
             this.label2.TabIndex = 6;
             this.label2.Text = "volume:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -110,7 +110,7 @@ namespace projectX
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(3, 216);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 20);
+            this.label3.Size = new System.Drawing.Size(87, 31);
             this.label3.TabIndex = 7;
             this.label3.Text = "Time:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -120,7 +120,7 @@ namespace projectX
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(3, 236);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 20);
+            this.label4.Size = new System.Drawing.Size(85, 31);
             this.label4.TabIndex = 8;
             this.label4.Text = "Date:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -148,10 +148,20 @@ namespace projectX
             "Salmon orange",
             "Navajo white",
             "Burly wood",
-            "Sandy brown"});
+            "Sandy brown",
+            "Chocolate",
+            "Siena",
+            "Peru",
+            "Bisque",
+            "Orange red",
+            "Darksalmon",
+            "Tomato",
+            "Maroon",
+            "Lightcoral",
+            "MistyRose"});
             this.comboBox1.Location = new System.Drawing.Point(7, 9);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(170, 28);
+            this.comboBox1.Size = new System.Drawing.Size(170, 39);
             this.comboBox1.TabIndex = 10;
             this.comboBox1.Tag = "";
             this.comboBox1.Text = "background color";
@@ -174,7 +184,7 @@ namespace projectX
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(7, 149);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(170, 28);
+            this.comboBox2.Size = new System.Drawing.Size(170, 39);
             this.comboBox2.TabIndex = 12;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
@@ -197,7 +207,7 @@ namespace projectX
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(3, 177);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(281, 40);
+            this.label5.Size = new System.Drawing.Size(454, 62);
             this.label5.TabIndex = 13;
             this.label5.Text = "clear text box.\r\nchoose a phrase and click \'read it\'";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -223,7 +233,7 @@ namespace projectX
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(72, 265);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 20);
+            this.label6.Size = new System.Drawing.Size(88, 31);
             this.label6.TabIndex = 15;
             this.label6.Text = "timer:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -233,7 +243,7 @@ namespace projectX
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Location = new System.Drawing.Point(277, 316);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(187, 20);
+            this.linkLabel1.Size = new System.Drawing.Size(301, 31);
             this.linkLabel1.TabIndex = 17;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "editing tools for admin";
@@ -244,7 +254,7 @@ namespace projectX
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(3, 265);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(96, 20);
+            this.label7.Size = new System.Drawing.Size(156, 31);
             this.label7.TabIndex = 18;
             this.label7.Text = "using time:";
             // 

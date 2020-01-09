@@ -102,4 +102,3 @@ C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\project
 C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.csproj.CoreCompileInputs.cache
 C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.exe
 C:\Users\nti98\Desktop\talking-keyboard-asaf\projectX\projectX\obj\Debug\projectX.pdb
-C:\project talking keyboard\projectX\projectX\obj\Debug\projectX.csproj.CoreCompileInputs.cache

@@ -143,6 +143,7 @@ namespace projectX
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+
             if (comboBox1.Text == "Sandy brown")
             {
                 BackColor = Color.SandyBrown;
@@ -159,6 +160,43 @@ namespace projectX
             {
                 BackColor = Color.BurlyWood;
             }
+            if (comboBox1.Text == "Chocolate")
+            {
+                BackColor = Color.Chocolate;
+            }
+            if (comboBox1.Text == "Siena")
+            {
+                BackColor = Color.Sienna;
+            }
+            if (comboBox1.Text == "Peru")
+            {
+                BackColor = Color.Peru;
+            }
+            if (comboBox1.Text == "Bisque")
+            {
+                BackColor = Color.Bisque;
+            }
+            if (comboBox1.Text == "Orange red")
+            {
+                BackColor = Color.OrangeRed;
+            }
+            if (comboBox1.Text == "Darksalmon")
+            {
+                BackColor = Color.DarkSalmon;
+            }
+            if (comboBox1.Text == "Maroon")
+            {
+                BackColor = Color.Maroon;
+            }
+            if (comboBox1.Text == "Lightcoral")
+            {
+                BackColor = Color.LightCoral;
+            }
+            if (comboBox1.Text == "MistyRose")
+            {
+                BackColor = Color.MistyRose;
+            }
+
         }
 
         private void button4_Click(object sender, EventArgs e)
