@@ -31,17 +31,20 @@ namespace projectX
 
         void button2_Click(object sender, EventArgs e)
         {
-
+            bool flag = false;
             SpeechSynthesizer sd = new SpeechSynthesizer();
             String ogu = textBox2.Text;
-            sd.Rate = -2;
+            sd.Rate = trackBar2.Value;
             sd.SelectVoiceByHints(VoiceGender.Male);
             sd.Volume = trackBar1.Value;
-            if (ogu.StartsWith("'") && ogu.EndsWith("'"))
+            if ((ogu.StartsWith("'") && ogu.EndsWith("'")) || (ogu.StartsWith("\"") && ogu.EndsWith("\"")))
             {
                 sd.Speak("quote:");
+                flag = true;
             }
             sd.Speak(ogu);
+            if (flag)
+                sd.Speak("quote end");
             if (ogu.Length < 1)
             {
                 ogu = comboBox2.Text;
@@ -250,6 +253,16 @@ namespace projectX
         private void button6_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trackBar2_Scroll(object sender, EventArgs e)
+        {
+
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
