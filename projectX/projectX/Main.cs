@@ -199,6 +199,30 @@ namespace projectX
             {
                 BackColor = Color.MistyRose;
             }
+            if (comboBox1.Text == "DarkGoldenrod")
+            {
+                BackColor = Color.DarkGoldenrod;
+            }
+            if (comboBox1.Text == "DarkKhaki")
+            {
+                BackColor = Color.DarkKhaki;
+            }
+            if (comboBox1.Text == "Tan")
+            {
+                BackColor = Color.Tan;
+            }
+            if (comboBox1.Text == "Moccasin")
+            {
+                BackColor = Color.Moccasin;
+            }
+            if (comboBox1.Text == "Wheat")
+            {
+                BackColor = Color.Wheat;
+            }
+
+            
+
+
 
         }
 
